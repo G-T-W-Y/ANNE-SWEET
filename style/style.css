@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Spectral SC', serif;*/
     margin: 0;
     padding: 0;
 }
@@ -62,4 +61,62 @@ a {
     font-size: 18px;
     line-height: 25px;
     color: #2E2F22;
+}
+
+/*ALL ARTICLE*/
+
+.all-articles-headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-articles-headers h2 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+}
+
+.dropbtn {
+    border: none;ne;
+    padding: 12px 20px;
+    background: #D7D1C9;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+    cursor: pointer;
+
+}
+
+.dropbtn img {
+    margin-left: 35px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content-item a {
+	display: inline-block;
+	min-width: 150px;
+	color: #2E2F22;
+	padding: 12px 20px;
+	/*line-height: 22px;*/
+}
+
+.dropdown-content-item a:hover {
+
+    background: #D7D1C9;
+    border-radius: 10px;
 }

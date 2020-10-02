@@ -11,28 +11,28 @@
 
 <body>
     <header class="main-header">
-    	<div class="container">
-    	<div class="main-header-wrapper">
-        <a href="#">
-            <img src="img/logo.svg" class="logo" alt="logo">
-        </a>
-        <nav class="menu">
-            <ul class="menu-list">
-                <li class="menu-item">
-                    <a href="#all-articles">Статьи</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#about">Обо мне</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#portfolio">Портфолио</a>
-                </li>
-                <li class="menu-item">
-                    <a href="#write-me">Написать мне</a>
-                </li>
-            </ul>
-        </nav>
-        </div>	
+        <div class="container">
+            <div class="main-header-wrapper">
+                <a href="#">
+                    <img src="img/logo.svg" class="logo" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="#all-articles">Статьи</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#about">Обо мне</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#portfolio">Портфолио</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#write-me">Написать мне</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -42,15 +42,30 @@
                     <h2>Все статьи</h2>
                     <div class="dropdown">
                         <button class="dropbtn">Выбрать тему
-                            <i class="fa fa-caret-down"></i>
+                            <!-- <i class="fa fa-caret-down"></i> -->
+                            <img src="img/polygon.svg">
                         </button>
                         <div class="dropdown-content">
-                            <a href="#travels">путешествия</a>
-                            <a href="#frends">друзья</a>
-                            <a href="#city">город</a>
-                            <a href="#books">книги</a>
-                            <a href="#photos">фотографии</a>
-                            <a href="#recipes">рецепты</a>
+                            <ul class="dropdown-content-list">
+                                <li class="dropdown-content-item">
+                                    <a href="#travels">путешествия</a>
+                                </li>
+                                <li class="dropdown-content-item">
+                                    <a href="#frends">друзья</a>
+                                </li>
+                                <li class="dropdown-content-item">
+                                    <a href="#city">город</a>
+                                </li>
+                                <li class="dropdown-content-item">
+                                    <a href="#books">книги</a>
+                                </li>
+                                <li class="dropdown-content-item">
+                                    <a href="#photos">фотографии</a>
+                                </li>
+                                <li class="dropdown-content-item">
+                                    <a href="#recipes">рецепты</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -182,11 +197,11 @@
         <section id="write-me" class="write-me">
             <h2>Написать мне</h2>
             <form action="action_page.php">
-            	<div class="form-wripper">
-                <label for="name">Ваше имя</label>
-                <input type="text" id="name" name="firstname" placeholder="Иван Иванов">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="google@gmail.com">
+                <div class="form-wripper">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="firstname" placeholder="Иван Иванов">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="google@gmail.com">
                 </div>
                 <label for="message">Сообщение</label>
                 <textarea id="message" name="message" placeholder="Напишите здесь ваше сообщение."></textarea>
@@ -195,23 +210,24 @@
         </section>
     </main>
     <footer class="main-footer">
-    	<ul class="social-list">
-    		<li class="social-item">
-    			<a href="#">Вк</a>
-    		</li>
-    		<li class="social-item">
-    			<a href="#">Телеграм</a>
-    		</li>
-    		<li class="social-item">
-    			<a href="#">Инстаграм</a>
-    		</li>
-    		<li class="social-item">
-    			<a href="#">Твиттер</a>
-    		</li>
-    	</ul>
+        <ul class="social-list">
+            <li class="social-item">
+                <a href="#">Вк</a>
+            </li>
+            <li class="social-item">
+                <a href="#">Телеграм</a>
+            </li>
+            <li class="social-item">
+                <a href="#">Инстаграм</a>
+            </li>
+            <li class="social-item">
+                <a href="#">Твиттер</a>
+            </li>
+        </ul>
     </footer>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-     
+    <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
 </body>
 
 </html>

@@ -14,6 +14,11 @@ body {
     padding: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
 }
@@ -33,7 +38,6 @@ a {
 .main-header {
     min-height: 580px;
     background-image: url("../img/header-bg.jpg");
-    /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 83px;
@@ -81,7 +85,8 @@ a {
 }
 
 .dropbtn {
-    border: none;ne;
+    border: none;
+    ne;
     padding: 12px 20px;
     background: #D7D1C9;
     border-radius: 10px;
@@ -104,19 +109,111 @@ a {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    /*display: block;*/
 }
 
 .dropdown-content-item a {
-	display: inline-block;
-	min-width: 150px;
-	color: #2E2F22;
-	padding: 12px 20px;
-	/*line-height: 22px;*/
+    display: inline-block;
+    min-width: 150px;
+    color: #2E2F22;
+    padding: 12px 20px;
 }
 
 .dropdown-content-item a:hover {
 
     background: #D7D1C9;
     border-radius: 10px;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-item {
+    width: 100%;
+    max-width: 387px;
+}
+
+#all-articles>div>ul>li:nth-child(2),
+#all-articles>div>ul>li:nth-child(3) {
+    margin-left: 19px;
+}
+
+.article-item img {
+    border-radius: 10px;
+}
+
+.article-item a {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+
+.article-item-wpapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-item-wpapper a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(46, 47, 34, 0.7);
+}
+
+#all-articles>div>ul>li:nth-child(1) {
+    margin-bottom: 60px;
+}
+
+#all-articles>div>ul>li:nth-child(4) {
+    position: relative;
+    width: 100%;
+    max-width: 590px;
+}
+
+#all-articles>div>ul>li:nth-child(5) {
+    position: relative;
+    width: 100%;
+    max-width: 590px;
+    margin-left: 20px;
+
+}
+
+.article-item-content {
+    position: absolute;
+    left: 80px;
+    bottom: 60px;
+    color: #fff;
+    width: 100%;
+    max-width: 430px;
+}
+
+.article-item-content a {
+    color: #fff;
+}
+
+.article-item-wpapper {
+    opacity: 0.7;
+}
+
+.show-more {
+    display: block;
+    width: 100%;
+    max-width: 232px;
+    margin: 100px auto;
+    padding: 12px 60px;
+    text-align: center;
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #202117;
 }

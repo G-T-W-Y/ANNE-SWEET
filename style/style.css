@@ -261,3 +261,20 @@ a {
     padding: 20px;
     border-left: 3px solid #D7D1C9;
 }
+
+.about {
+    margin-bottom: 85px;
+}
+
+/*Portfolio*/
+
+.portfolio h2 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+    text-align: center;
+}
+

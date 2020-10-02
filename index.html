@@ -24,7 +24,7 @@
                     <a href="#portfolio">Портфолио</a>
                 </li>
                 <li class="menu-item">
-                    <a href="№write-me">Написать мне</a>
+                    <a href="#write-me">Написать мне</a>
                 </li>
             </ul>
         </nav>
@@ -33,7 +33,7 @@
         <section id="all-articles" class="all-articles">
             <div class="container">
                 <div class="all-articles-headers">
-                    <h3>Все статьи</h3>
+                    <h2>Все статьи</h2>
                     <div class="dropdown">
                         <button class="dropbtn">Выбрать тему
                             <i class="fa fa-caret-down"></i>
@@ -51,7 +51,7 @@
                     <li class="article-item">
                         <article>
                             <img src="img/article-1.jpg" alt="Путешествие в Берлине в августе">
-                            <h2>Путешествие в Берлин в августе</h2>
+                            <h3>Путешествие в Берлин в августе</h3>
                             <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
                             <div class="article-item-wpapper">
                                 <span>Теги: <a href="#travels">путешествия</a></span>
@@ -62,7 +62,7 @@
                     <li class="article-item">
                         <article>
                             <img src="img/article-2.jpg" alt="Где выпить колдбрю в Москве">
-                            <h2>Где выпить колдбрю в Москве</h2>
+                            <h3>Где выпить колдбрю в Москве</h3>
                             <p>Собрала для вас список любимых кофеен,
                                 где подают лучший летний напиток.</p>
                             <div class="article-item-wpapper">
@@ -74,7 +74,7 @@
                     <li class="article-item">
                         <article>
                             <img src="img/article-3.jpg" alt="Прочитано: книжные рекомендации">
-                            <h2>Прочитано: книжные рекомендации</h2>
+                            <h3>Прочитано: книжные рекомендации</h3>
                             <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
                             <div class="article-item-wpapper">
                                 <span>Теги: <a href="#books">книги</a></span>
@@ -85,7 +85,7 @@
                     <li class="article-item">
                         <article>
                             <img src="img/article-4.jpg" alt="Снимки на плёнку">
-                            <h2>Снимки на плёнку</h2>
+                            <h3>Снимки на плёнку</h3>
                             <p>Поделилась с вами весенними фотографиями,
                                 и секретами удачных снимков.</p>
                             <div class="article-item-wpapper">
@@ -97,7 +97,7 @@
                     <li class="article-item">
                         <article>
                             <img src="img/article-5.jpg" alt="Домашний чизкейк ">
-                            <h2>Домашний чизкейк </h2>
+                            <h3>Домашний чизкейк </h3>
                             <p>Что может быть лучше чизкейка с сезонными
                                 ягодами? Только домашний чизкейк!</p>
                             <div class="article-item-wpapper">
@@ -112,7 +112,7 @@
         </section>
         <section id="about" class="about">
             <div class="container">
-                <h3>Обо мне</h3>
+                <h2>Обо мне</h2>
                 <div class="about-wripper">
                     <div class="about-image">
                         <img src="img/about.jpg" alt="фотография автора">
@@ -141,8 +141,67 @@
                 </div>
             </div>
         </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Портфолио</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
+                        <a href="#">Блог HTML Academy</a>
+                        <h3>«Как учиться продуктивно»</h3>
+                        <p>Про основные методы обучения,
+                            которые помогут быстро и надолго
+                            запомнить информацию.</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="#">Журнал «LNK»</a>
+                        <h3>«Зачем поцели нужны человеку?
+                            И какие они бывают»</h3>
+                        <p>Поцелуи — повсеместная ежедневная
+                            практика. Но зачем люди целуются?
+                            Какие смысли вкладывают в этот ритуал?
+                            И где корни этой практики?</p>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="#">Журнал «Т — Л»</a>
+                        <h3>«Советы по эффективной
+                            удалённой работе»</h3>
+                        <p>Поделилась лайфхаками, которые помогают
+                            мне работать продуктивно из дома. </p>
+                    </li>
+                </ul>
+                <a href="#" class="show-more">Показать еще</a>
+            </div>
+        </section>
+        <section id="write-me" class="write-me">
+            <h2>Написать мне</h2>
+            <form action="action_page.php">
+            	<div class="form-wripper">
+                <label for="fname">Ваше имя</label>
+                <input type="text" id="fname" name="firstname" placeholder="Иван Иванов">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="google@gmail.com">
+                </div>
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" placeholder="Напишите здесь ваше сообщение."></textarea>
+                <input class="submit" type="submit" value="Отправить">
+            </form>
+        </section>
     </main>
     <footer class="main-footer">
+    	<ul class="social-list">
+    		<li class="social-item">
+    			<a href="#">Вк</a>
+    		</li>
+    		<li class="social-item">
+    			<a href="#">Телеграм</a>
+    		</li>
+    		<li class="social-item">
+    			<a href="#">Инстаграм</a>
+    		</li>
+    		<li class="social-item">
+    			<a href="#">Твиттер</a>
+    		</li>
+    	</ul>
     </footer>
     <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')

@@ -207,7 +207,7 @@ a {
     display: block;
     width: 100%;
     max-width: 232px;
-    margin: 100px auto;
+    margin: 100px auto 85px;
     padding: 12px 60px;
     text-align: center;
     border: 1px solid #202117;
@@ -216,4 +216,48 @@ a {
     font-size: 16px;
     line-height: 22px;
     color: #202117;
+}
+
+/*ABOUT*/
+
+.about h2 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+    text-align: center;
+}
+
+.about-wripper {
+    display: flex;
+}
+
+.about-image img {
+    width: 590px;
+    height: 690px;
+}
+
+.about-description p {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+.about-description blockquote {
+    margin-top: 70px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #2E2F22;
+    padding: 20px;
+    border-left: 3px solid #D7D1C9;
 }

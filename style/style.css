@@ -278,3 +278,65 @@ a {
     text-align: center;
 }
 
+.portfolio-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    max-width: 387px;
+    min-height: 525px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 140px 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+#portfolio > div > ul > li:nth-child(1) {
+    background-image: url("../img/portfolio-1.jpg");
+}
+
+#portfolio > div > ul > li:nth-child(2) {
+    background-image: url("../img/portfolio-2.jpg");
+    
+}
+
+#portfolio > div > ul > li:nth-child(3) {
+    background-image: url("../img/portfolio-3.jpg");
+}
+
+.portfolio-item a {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2E2F22;
+    margin-bottom: 44px;
+}
+
+.portfolio-item h3 {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E2F22;
+}
+
+.portfolio-item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+#portfolio > div > ul > li:nth-child(2) > a,
+#portfolio > div > ul > li:nth-child(2) > h3,
+#portfolio > div > ul > li:nth-child(2) > p {
+    color: #fff;
+}

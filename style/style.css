@@ -125,6 +125,11 @@ a {
     border-radius: 10px;
 }
 
+/* Drobdown tutorial on JS */
+/* https://www.w3schools.com/howto/howto_js_dropdown.asp */
+/* Custom Select Box */
+/* https://www.w3schools.com/howto/howto_custom_select.asp */
+
 .article-list {
     display: flex;
     flex-wrap: wrap;

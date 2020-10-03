@@ -1,4 +1,87 @@
-
+/* HEADER */
 .main-header {
-    background-image: url("../img/header-article-bg.jpg");
+  background-image: url("../img/header-article-bg.jpg");
+}
+
+/* ARTICLE */
+
+.article h3 {
+  font-family: Spectral SC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2e2f22;
+  margin-bottom: 6px;
+}
+.article span,
+.article a,
+.article time {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+}
+
+.article time {
+  margin-left: 18px;
+}
+
+.article-content {
+  width: 100%;
+  max-width: 996px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.article-content p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2e2f22;
+}
+
+.article-content figure {
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+.article-content figcaption {
+  margin-top: 10px;
+}
+
+.social-list-wripper {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.social-list {
+  justify-content: flex-end;
+  max-width: 0;
+}
+
+.like-counter span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: #2e2f22;
+}
+
+.social-list-icon {
+    margin-left: 32px;
+}
+
+#to-all-articles {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2E2F22;
 }

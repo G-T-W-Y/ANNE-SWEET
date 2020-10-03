@@ -103,4 +103,66 @@
 
 /* COMMENTS */
 
+.comments-container {
+    width: 100%;
+    max-width: 793px;
+}
 
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    background: #ECE1E1;
+    border-radius: 10px;
+    padding: 44px 101px 49px;
+    margin-bottom: 77px;
+}
+
+.comments-item-wrapper {
+    display: flex;
+}
+
+.comments-item-wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 13px;
+}
+
+/* FORM */
+
+.comments-form {
+    margin-left: 80px;
+}
+
+.comments-form h2 {
+    margin-bottom: 69px;
+}
+
+.form-wrapper {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.comments-form-col input {
+    width: 220px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #2E2F22;
+}
+
+.comments-form-col .submit {
+    border: 1px solid #202117;
+    background: transparent;
+    margin-top: 53px;
+    margin-bottom: 0;
+}
+
+.comments-form-col textarea {
+    width: 406px;
+    height: 198px;
+    margin-left: 80px;
+    padding: 20px;
+    border: 1px solid #2E2F22;
+    border-radius: 10px;
+    resize: none;
+}

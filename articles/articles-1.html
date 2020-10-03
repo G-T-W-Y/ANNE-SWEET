@@ -167,34 +167,38 @@
               <h2>Оставить комментарий</h2>
               <form action="action_page.php">
                 <div class="form-wrapper">
-                  <div class="column">
-                    <label for="name">Имя</label>
+                  <div class="comments-form-col">
+                    <!-- <label for="name"></label> -->
+                    <!-- <br> -->
                     <input
                       type="text"
                       id="name"
                       name="firstname"
-                      placeholder="Иван Иванов"
+                      placeholder="Имя"
                       required
                       minlength="10"
                       maxlength="200"
                     />
-                    <label for="email">Почта</label>
+                    <br>
+                    <!-- <label for="email"></label> -->
+                    <br>
                     <input
                       type="text"
                       id="email"
                       name="email"
-                      placeholder="google@gmail.com"
+                      placeholder="Почта"
                       required
                       minlength="10"
                       maxlength="200"
                     />
-                    <input class="submit" type="submit" value="Отправить" />
+                    <br>
+                    <input class="submit show-more" type="submit" value="Отправить" />
                   </div>
-                  <div class="column">
+                  <div class="comments-form-col">
                     <textarea
                       id="message"
                       name="message"
-                      placeholder="Напишите здесь ваше сообщение."
+                      placeholder="Написать комментарий..."
                     ></textarea>
                   </div>
                 </div>
